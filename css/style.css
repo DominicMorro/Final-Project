@@ -1,0 +1,80 @@
+header {
+    background-color: #F2F2F2;
+    padding-bottom: 25px;
+    padding: 12px;
+}
+h1 {
+   font-size: 80px;
+    color: #20a8b4;
+}
+body {
+    font-family: roboto;
+    margin: 0;
+}
+#blue {
+    color: white;
+    background-color: #20a8b4;
+    border-radius: 10px;
+    padding : 12px;
+    padding-inline-end: 90%;
+    border: none;
+    text-decoration: none;
+    
+    }
+#blue:hover {
+    background-color: #ff5c0f;
+    border: 0px;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+}
+a:hover {
+  color: #ff5c0f;
+  border: 0px;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+}
+span {
+    color: #ff5c0f;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#learn {
+    color: #ff5c0f;
+}
+
+#think {
+    font-size: 40px;
+    padding-left: 10px;
+    position: relative;
+    top: 75px;
+}
+#career {
+    font-size: 25px;
+    padding-left: 10px;
+    position: relative;
+    top: 55px;
+}
+#learn-more {
+    color: #F2F2F2;
+    background-color: #20a8b4;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-inline-end: 90%;
+    margin-left: 10px;
+
+}
+#learn-more:hover {
+    background-color: #ff5c0f;
+    border: 0px;
+    -webkit-transition: color 0s;
+    transition: color 0s;
+}
+
+
+
+
+
