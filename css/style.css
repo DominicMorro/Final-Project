@@ -1,4 +1,14 @@
-header {
+/*mobile*/
+@media (max-width: 480px) {
+ body {
+    font-size: 20px;
+ } 
+ .navbar{
+    display: flex;
+    flex-direction: column;
+ }  
+
+header h3 {
     background-color: #F2F2F2;
     padding-bottom: 25px;
     padding: 12px;
@@ -6,6 +16,9 @@ header {
 h1 {
    font-size: 80px;
     color: #20a8b4;
+}
+a {
+    float: left;
 }
 body {
     font-family: roboto;
@@ -16,9 +29,11 @@ body {
     background-color: #20a8b4;
     border-radius: 10px;
     padding : 12px;
-    padding-inline-end: 90%;
+    width: 98%;
     border: none;
     text-decoration: none;
+    
+    
     
     }
 #blue:hover {
@@ -62,17 +77,70 @@ a {
     position: relative;
     top: 50px;
     border-radius: 10px;
-    padding: 10px;
-    padding-inline-end: 90%;
-    margin-left: 10px;
+    padding: 12px;
+    width: 95%;
+    display: block;
+    margin-left: 20px;
 
 }
 #learn-more:hover {
     background-color: #ff5c0f;
     border: 0px;
+    -webkit-transition: color s;
+    transition: color 0s;
+
+}
+  
+}
+ 
+/*desktop*/
+  @media (max-width: 2000px) {
+    
+    #blue {
+        color: white;
+        background-color: #20a8b4;
+        border-radius: 10px;
+        padding : 12px;
+        border: none;
+        text-decoration: none;
+    }
+header {
+    background-color: #F2F2F2;
+    padding-bottom: 25px;
+    padding: 12px;
+    
+}
+h1 {
+    font-size: 80px;
+    color: #20a8b4;
+}
+body {
+font-size: 20px;
+font-family: roboto;
+margin: 0;
+}
+
+.navopt {
+ text-align: right;
+}
+ a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    background-color: #ff5c0f;
+    border: 0px;
     -webkit-transition: color 0s;
     transition: color 0s;
 }
+}
+
+
+
 
 
 
