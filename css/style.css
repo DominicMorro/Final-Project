@@ -1,5 +1,7 @@
 /*mobile*/
-
+img {
+    display: none;
+}
 h3{  
     display: flex;
     justify-content: space-between;
@@ -7,7 +9,7 @@ h3{
 header {
     background-color:#F2F2F2;
     padding: 0px;
-    margin: 0px;
+    margin: 0;
 }
 h1 {
        font-size: 40px;
@@ -15,6 +17,7 @@ h1 {
        position: relative;
        margin-top: 0;
        left: 15px;
+       margin: 0%;
     }
     a {
         padding-left: 12px;
@@ -83,7 +86,7 @@ h1 {
         top: 65px;
         border-radius: 10px;
         padding: 12px;
-        width: 100%;
+        width: 100% !important;
         display: block;
         margin-left: 10px;
         font-size: 15px;
@@ -112,11 +115,15 @@ h1 {
         padding: 0;
         margin-right: 1em;
     }
+    img {
+        visibility: hidden;
+    }
+
     
     
     
     /*desktop*/
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-device-width: 768px) {
         h1 {
             color: #20a8b4;
             position:relative;
@@ -136,6 +143,12 @@ header{
     background-color: #f5f5f5;
     margin: 0;
     padding: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
 }
 a {
     text-decoration: none;
@@ -174,6 +187,7 @@ ul {
     background-color: #20a8b4;
     border-radius: 10px;
     padding: 10px;
+    width: auto;
 }
 img{
     width: 500px;
@@ -186,26 +200,27 @@ img{
 }
 main {
     position: relative;
-    top: 10em;
+    top: 8em;
 }
-#learn-more {
+img {
     display: flex;
-    flex-direction: column;
-    width: auto !important;
+    justify-content: space-between;
+    visibility: visible;
+    position: relative;
+    left: 25%;
+    height: 300px;
+    width: 450px;
 }
-.Body {
-    width: 50%;
+main {
+    display: flex;
+    float: inline-start;
+    width: auto;
 }
-#career {
-    font-size: 20px;
-}
-#think{
-    font-size: 35px;
-}
-#learn-more {
-    width: 20px;
+ #learn-more{
+    width: auto;
+ }
+ .Body {
 
-}
-
+ }
 
 }
